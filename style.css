@@ -1,0 +1,102 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+  }
+
+  .main{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 160px;
+    background-image: linear-gradient(hsl(0, 100%, 74%, 0.5),hsl(0, 100%, 74%, 0.5)),url(img3/images/bg-intro-desktop.png);
+  }
+  
+  .flex-row{
+    height: 100vh;
+    display: flex;
+    flex-direction: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(hsl(0, 100%, 74%, 0.83),hsl(0, 100%, 74%, 0.83)),url(img3/images/bg-intro-desktop.png);
+    background-size: cover;
+    margin: 0px 50px 30px 50px ;
+ }
+
+ .right-col{
+    flex-basis: 50%;
+    align-items: right;
+    margin-top: 90px;
+    color: #ffffff;
+    padding-left: 150px;
+ }
+
+ .right-col h1{
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 20px;
+ }
+
+ .right-col p{
+    line-height: 22px;
+ }
+
+ .left-col{
+    flex-basis: 50%;
+    align-items: left;
+    margin-top: 70px;
+    padding-right: 100px;
+ }
+
+ .left-col-up{
+    background-color: hsl(248, 32%, 49%);
+    width: 90%;
+    padding: 10px 0 10px 95px;
+    border: 1px solid hsl(248, 32%, 49%);
+    border-radius: 5px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    box-shadow:  0 5px 6px rgba(212, 45, 45, 0.7);
+ }
+
+ .left-col-form{
+    width: 90%;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding:  40px;
+    background-color: #ffffff;
+    box-shadow:  0 5px 6px rgba(212, 45, 45, 0.7);
+ }
+
+ .left-col-form input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.form-btn{
+        background-color: hsl(154, 59%, 51%);
+        width: 100%;
+        padding: 10px 0 10px 20px;
+        border: 1px solid hsl(154, 59%, 51%);
+        border-radius: 5px;
+        color: #ffffff;
+        margin-bottom: 10px;
+}
+
+.left-col-form p{
+    font-size: 12px;
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+}
+.left-col-form p span{
+    color: hsl(0, 100%, 74%);
+}
+
+
+
+  
